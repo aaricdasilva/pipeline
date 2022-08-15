@@ -1,0 +1,19 @@
+file_type: csv
+dataset_name: test_data
+file_name: animelists_cleaned
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimeter: "|"
+skip_leading_rows: 1
+columns:
+    - username
+    - anime_id
+    - my_watched_episodes
+    - my_start_date
+    - my_finish_date
+    - my_score
+    - my_status
+    - my_rewatching
+    - my_rewatching_ep
+    - my_last_updated
+    - my_tags
